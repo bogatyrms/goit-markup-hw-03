@@ -215,7 +215,7 @@ a {
     display: flex;
     flex-direction: column;
     /* padding: 120px 639px 572px; */
-    margin-bottom: 50px;
+    margin-bottom: 72px
 }
 
 .main-team-hthree-name {
@@ -246,6 +246,7 @@ a {
     align-items: center;
     flex-direction: row;
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .main-team-li {
