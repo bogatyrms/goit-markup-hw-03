@@ -163,19 +163,19 @@ a {
     background-color: #404bbf;
 }
 
-.list-containter {
+/* .list-containter {
     display: flex;
     gap: 24px;
-}
+} */
 
 .main-list {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-list-ul {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .main-list-li {
@@ -183,6 +183,7 @@ a {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    width: calc((100% - 72px) / 4);
     height: 104px;
 }
 
@@ -224,7 +225,8 @@ a {
 } */
 
 .team-container {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .main-team-htwo {
@@ -273,14 +275,12 @@ a {
 
 .main-team-li {
     background-color: #ffffff;
-    display: flex;
-    /* flex-wrap: wrap; */
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .main-team-img {
@@ -296,7 +296,8 @@ a {
 }
 
 /* .port-container {
-    padding: 32px 16px
+    padding-top: 120px;
+    padding-bottom: 120px;
 } */
 
 .main-port-htwo {
@@ -313,17 +314,16 @@ a {
 .main-port-ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
-    /* flex-direction: row;
-    flex-basis: calc((100% - 48px) / 3); */
+    row-gap: 48px;
+    column-gap: 24px;
+    padding: 32px 16px;
 }
 
 .main-port-li {
     width: calc((100% - 48px) / 3);
     background: #fff;
-    border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
+    border: 1px solid #e7e9fc;
 }
 .main-port-hthree-name {
     font-weight: 500;
@@ -332,6 +332,8 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-align:justify;
+    margin-bottom: 8px;
+    display: block;
 }
 
 .main-port-p-about {
