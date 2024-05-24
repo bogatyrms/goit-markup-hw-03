@@ -151,7 +151,7 @@ a {
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
 }
 
@@ -161,13 +161,13 @@ a {
 }
 
 .main-list {
-    padding: 120px 0 120px;
+    padding: 188px 0 188px;
 }
 
 .main-list-ul {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .main-list-title {
@@ -318,11 +318,14 @@ a {
 
 .footer {
     background-color: #2e2f42;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* display: inline-block; */
+    /* align-items: center; */
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
+    padding: 100px 0;
+    height: 312px;
 }
 
 .footer-p {
@@ -333,16 +336,24 @@ a {
     color: #f4f4fd;
     max-width: 264px;
 
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    /* align-items: center; */
+    /* justify-content: flex-start;
     flex-direction: row;
-    gap: 0px;
+    gap: 0px; */
 }
 
 .header-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
     margin-bottom: 16px;
 }
+
 .header-logo-white {
     color: #f4f4fd;
 }
