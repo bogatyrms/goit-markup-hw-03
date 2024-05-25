@@ -117,13 +117,13 @@ a {
     height: 600px;
 }
 
-.main-container {
+/* .main-container {
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 1440px;
     height: 600px;
-}
+} */
 
 .main-title-hone {
     font-weight: 700;
@@ -131,10 +131,10 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    max-width: 496px;
     min-width: 169px;
-    align-items: center;
+    max-width: 496px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .main-title-button {
@@ -156,6 +156,10 @@ a {
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
+
+    margin: 0 auto;
+    margin-top: 48px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .main-title-button:hover,
